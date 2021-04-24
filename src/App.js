@@ -1,5 +1,6 @@
 import './App.css';
 import ExampleUseEffect from './components/ExampleUseEffect';
+import ExampleUseRef from './components/ExampleUseRef';
 import ExampleUseState from './components/ExampleUseState';
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
       <h1>Hooks tutorial</h1>
       <ExampleUseState />
       <ExampleUseEffect />
+      <ExampleUseRef />
     </div>
   );
 }

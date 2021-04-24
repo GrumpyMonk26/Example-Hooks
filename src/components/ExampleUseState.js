@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { useForm } from "./useForm"
 
 const ExampleUseState = () => {
-    const [count, setCount, removeCount] = useState(() => 0);
+    const [count, setCount,] = useState(() => 0);
     const [values, handleChange] = useForm({email: "", password: ""});
 
     return (

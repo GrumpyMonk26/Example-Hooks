@@ -8,6 +8,7 @@ const ExampleUseState = () => {
     return (
         <div className="UseStateExample" >
             <div className="firstExample" >
+                {/* TEST TEST */}
             <h3>UseState Example</h3>
             <button onClick={() => setCount(count + 1)}>+</button>
             <p>{count}</p>
